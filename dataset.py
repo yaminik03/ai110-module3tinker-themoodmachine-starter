@@ -23,6 +23,12 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "sick",
+    "fire",
+    "wicked",
+    "lit",
+    "dope"
 ]
 
 NEGATIVE_WORDS = [
@@ -50,6 +56,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed about finals but I think I got this",
+    "That exam was brutal 💀",
+    "Had a great time with friends today :)",
+    "This weather got me feeling sad 😭",
+    "No cap that was actually fun"
+    "Feeling lowkey happy but also stressed 😅",
+    "This is absolutely amazing 😍",
+    "I hate waking up early 😩",
+    "Not bad at all, kinda fun",
+    "LOL that was so funny 😂"
 ]
 
 # Human labels for each post above.
@@ -65,7 +81,20 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "Lowkey stressed about finals but I think I got this"
+    "negative",  # "That exam was brutal 💀"
+    "positive",  # "Had a great time with friends today :)"
+    "negative",  # "This weather got me feeling sad 😭"
+    "positive"   # "No cap that was actually fun"
+    "mixed",     # "Feeling lowkey happy but also stressed 😅"
+    "positive",  # "This is absolutely amazing 😍"
+    "negative",  # "I hate waking up early 😩"
+    "positive",  # "Not bad at all, kinda fun"
+    "positive"   # "LOL that was so funny 😂"
 ]
+
+print(len(SAMPLE_POSTS) == len(TRUE_LABELS))
+
 
 # TODO: Add 5-10 more posts and labels.
 #

@@ -65,3 +65,9 @@ During this lab you will:
 - When debugging, print tokens, scores, or intermediate choices.
 - Ask an AI assistant to help create edge case posts or unusual wording.
 - Try examples that mislead or confuse your model. Failure cases teach you the most.
+
+---
+
+### Summary
+
+The core concept of this project is understanding how different components of a mood detection system work together, including preprocessing text, scoring based on positive and negative words, and mapping scores to mood labels. Students need to comprehend rule-based logic, negation handling, and the limitations of static word lists. Common struggles would include handling slang, emojis, sarcasm, and mixed emotions, which often confuse the model. AI was definitely helpful for brainstorming additional example posts, suggesting scoring improvements, and generating test cases, but sometimes it was misleading when it proposed unrealistic or repetitive language. A key observation is seeing how small changes in the dataset or scoring rules can significantly affect predictions. To guide a student without giving the answer, I would ask: “What happens to the score if a negative word is preceded by ‘not’? How should the label change?”
